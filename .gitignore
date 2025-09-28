@@ -1,6 +1,6 @@
 .terraform/
 .terraform.lock.hcl
 myfile.txt
-plan.tfplan
 terraform.tfstate
 terraform.tfstate.backup
+*.tfplan
