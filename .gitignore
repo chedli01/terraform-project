@@ -4,3 +4,7 @@ myfile.txt
 terraform.tfstate
 terraform.tfstate.backup
 *.tfplan
+backend_service.txt
+db_config.txt
+frontend_service.txt
+*.tfvars
