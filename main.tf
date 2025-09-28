@@ -10,6 +10,6 @@ terraform {
 provider "local" {}
 
 resource "local_file" "myfile" {
-  content  = "hello this is my file"
+  content  = "hello this is my file but second version"
   filename = "${path.module}/myfile.txt"
 } 
