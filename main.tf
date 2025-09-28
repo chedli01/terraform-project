@@ -8,3 +8,8 @@ terraform {
 }
 
 provider "local" {}
+
+resource "local_file" "myfile" {
+  content  = "hello this is my file"
+  filename = "${path.module}/myfile.txt"
+} 
