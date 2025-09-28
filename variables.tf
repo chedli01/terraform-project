@@ -1,4 +1,4 @@
 variable "content"{
   type    = string
-  default = "this is my page" 
+  default = "hello this is chedli and this is the content of my file" 
 }
